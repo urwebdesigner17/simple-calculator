@@ -1,0 +1,94 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: #1a1a1a;
+    color: aliceblue;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+    align-items: center;
+}
+h1{
+    padding: .5em;
+}
+.hint{
+    width: 50%;
+    text-align: end;
+    padding: .2rem 1rem
+}
+.hint a{
+    text-decoration-line: underline;
+    cursor: pointer;
+    color: #fff;
+}
+.slug{
+    width: 50%;
+    padding: 1rem;
+    text-align: center;
+    background: #2d2d2d;
+}
+.block1, .block2, .block3{
+    padding: .5em 1em;
+}
+.block1 input{
+    padding: 5px;
+    width: 40%;
+}
+.block2{
+    display: flex;
+    justify-content: center;
+    gap: 7px;
+}
+#operator{
+    width: 10%;
+}
+#btn{
+    width: 30%;
+    background: linear-gradient(180deg, #02a308, #91ef8f);
+    border: none;
+    cursor: pointer;
+}
+#output{
+    width: 60%;
+    padding: 5px;
+    background: whitesmoke;
+    color: black;
+    font-weight: 700;
+}
+#output input{
+    padding: 5px;
+}
+#warn{
+    /* margin-bottom: 1em; */
+    font-size: 14px;
+}
+#reset{
+    width: 93%;
+    background: linear-gradient(180deg, #f3c324, #fff);
+    border: none;
+    padding: .5em 1em;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.hidden {
+    display: none;
+}
+
+#popup{
+    position: relative;
+}
+#popup img{
+    width: 125px;
+}
+#popup button{
+    position: absolute;
+    padding: 0 3px;
+}
